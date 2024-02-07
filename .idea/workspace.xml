@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fd6c68e-9b84-4d86-aa4d-0e06b9f84e49" name="Changes" comment="베이직 시작~">
-      <change afterPath="$PROJECT_DIR$/src/ClassStart1/ClassStart1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassStart1/ClassStart2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassStart1/ClassStart3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassStart1/Studennt.java" afterDir="false" />
+    <list default="true" id="4fd6c68e-9b84-4d86-aa4d-0e06b9f84e49" name="Changes" comment="클래스 사용~">
+      <change afterPath="$PROJECT_DIR$/src/ClassStart1/ClassStart5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassStart4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassStart1/ClassStart3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassStart1/ClassStart3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassStart1/Studennt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassStart1/Studennt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +24,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -40,7 +49,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ClassStart1.ClassStart4.executor": "Run",
     "Application.ClassStart1.executor": "Run",
+    "Application.ClassStart3.executor": "Run",
+    "Application.ClassStart4.executor": "Run",
+    "Application.ClassStart5.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -49,7 +62,7 @@
     "onboarding.tips.debug.path": "/Users/joiyeon/Downloads/java-basic IYeon/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ClassStart1">
+  <component name="RunManager" selected="Application.ClassStart5">
     <configuration name="ClassStart1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClassStart1.ClassStart1" />
       <module name="java-basic IYeon" />
@@ -63,17 +76,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="ClassStart1.ClassStart4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassStart1.ClassStart4" />
       <module name="java-basic IYeon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ClassStart1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassStart3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassStart1.ClassStart3" />
+      <module name="java-basic IYeon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ClassStart1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassStart4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassStart4" />
+      <module name="java-basic IYeon" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassStart5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassStart1.ClassStart5" />
+      <module name="java-basic IYeon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ClassStart1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassStart5" />
+        <item itemvalue="Application.ClassStart1.ClassStart4" />
+        <item itemvalue="Application.ClassStart4" />
+        <item itemvalue="Application.ClassStart3" />
         <item itemvalue="Application.ClassStart1" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -101,12 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1706529986179</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="클래스 사용~">
+      <option name="closed" value="true" />
+      <created>1707250104357</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707250104357</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="베이직 시작~" />
-    <option name="LAST_COMMIT_MESSAGE" value="베이직 시작~" />
+    <MESSAGE value="클래스 사용~" />
+    <option name="LAST_COMMIT_MESSAGE" value="클래스 사용~" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -115,6 +179,11 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ClassStart1/ClassStart5.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
